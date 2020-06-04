@@ -6,7 +6,7 @@
 
 <h1>Activities</h1>
 
-@Html.ActionLink(" ", "Create", "Activities", null, new { @class = "btn btn-primary fas fas-plus-circle" })
+@Html.ActionLink(" ", "Create", "Activities", null, new { @class = "btn btn-primary fas fa-plus-circle" })
 
 <table class="table table-bordered">
     <thead>
@@ -30,9 +30,9 @@
                 @Html.DisplayFor(modelItem => item.Active)
             </td>
             <td>
-                @Html.ActionLink(" ", "Edit", "Activities", new { id = @item.Id }, new { @class = "btn btn-primary fas fas-edit" })
-                @Html.ActionLink(" ", "Details", "Activities", new { id = @item.Id }, new { @class = "btn btn-primary fas fas-info-circle" })
-                @Html.ActionLink(" ", "Delete", "Activities", new { id = @item.Id }, new { @class = "btn btn-primary fas fas-trash" })
+                @Html.ActionLink(" ", "Edit", "Activities", new { id = @item.Id }, new { @class = "btn btn-primary fas fa-edit" })
+                @Html.ActionLink(" ", "Details", "Activities", new { id = @item.Id }, new { @class = "btn btn-primary fas fa-info-circle" })
+                @Html.ActionLink(" ", "Delete", "Activities", new { id = @item.Id }, new { @class = "btn btn-primary fas fa-trash" })
             </td>
         </tr>
 }
